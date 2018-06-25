@@ -2859,13 +2859,11 @@
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #42426F;
-				border-top: 0.5px solid white;
 				border-right: 0.5px solid white;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
 				background-color: #26466D;
-				border-top: 0.5px solid white;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -2883,13 +2881,11 @@
 				background-color: #26466D;
 				border-top: 0.5px solid white;
 				border-right: 0.5px solid white;
-				border-bottom: 0.5px solid white;
 			}
 
 			.tiles article:nth-child(6n):before {
 				background-color: #26466D;
 				border-top: 0.5px solid white;
-				border-bottom: 0.5px solid white;
 			}
 
 		@media screen and (max-width: 1280px) {
