@@ -2864,18 +2864,18 @@
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #2B4F81;
+				background-color: #26466D;
 				border-top: 0.5px solid white;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #88ACE0;
+				background-color: #26466D;
 				border-top: 0.5px solid white;
 				border-right: 0.5px solid white;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #162252;
+				background-color: #26466D;
 				border-top: 0.5px solid white;
 			}
 
@@ -2887,7 +2887,7 @@
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #4372AA;
+				background-color: #26466D;
 				border-top: 0.5px solid white;
 				border-bottom: 0.5px solid white;
 			}
