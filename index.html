@@ -22,15 +22,6 @@
 		    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 		}
 
-		/* Modal Content */
-		.modal-content {
-		    background-color: #fefefe;
-		    margin: auto;
-		    padding: 20px;
-		    border: 1px solid #888;
-		    width: 80%;
-		}
-
 		/* The Close Button */
 		.close {
 		    color: #aaaaaa;
@@ -53,6 +44,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -144,9 +136,17 @@
 										<p>Data Science | Data Mining | Machine Learning</p>
 										<!-- Test Modal -->
 										<div id="portfolio-modal1" class="modal">
-											<div class="modal-content">
-												<span class="close">&times;</span>
-												<p>Some text...</p>
+											<div class="w3-modal-content w3-animate-zoom" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;">
+												<div class="modal-header">
+													<span class="close">&times;</span>
+													<h2 style="color: #000000">SMS Spam Detection</h2>
+												</div>
+												<div class="modal-body">
+													<p style="color: #000000">Some text in the Modal Body</p>
+												</div>
+												<div class="modal-footer">
+													<h3 style="color: #000000">Modal Footer</h3>
+												</div>
 											</div>
 										</div>
 									</header>
@@ -162,7 +162,7 @@
 										<div id="portfolio-modal2" class="modal">
 											<div class="modal-content">
 												<span class="close">&times;</span>
-												<p>Some text...</p>
+												<p style="color: #000000">Some other text...</p>
 											</div>
 										</div>
 									</header>
