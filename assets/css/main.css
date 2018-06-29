@@ -3993,3 +3993,19 @@
 			opacity: 1;
 			visibility: visible;
 		}
+
+.my-photo {
+	display: block;
+	width: 425px;
+	height: 320px;
+	background-image: url("../../images/rohan.jpg");
+	background-size: cover;
+	float: left;
+}
+
+.aboutme-container {
+	width: 560px;
+	background: #ffffff;
+	height: 320px;
+	margin-left: 475px
+}
