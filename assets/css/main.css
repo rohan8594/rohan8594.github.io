@@ -3993,7 +3993,7 @@
 			opacity: 1;
 			visibility: visible;
 		}
-
+/*
 .my-photo {
 	display: block;
 	width: 425px;
@@ -4007,4 +4007,33 @@
 	width: 560px;
 	height: 320px;
 	margin-left: 500px
+}
+*/
+
+.inner div {
+	min-height: 200px;
+}
+#my-photo {
+	display: block;
+	width: 425px;
+	height: 320px;
+	background-image: url("../../images/rohan.jpg");
+	background-size: cover;
+	float:left; 
+}
+#aboutme-container {
+	overflow:hidden;
+	min-height:170px;
+	float: right;
+	height: 320px;
+	padding-top: 5px;
+}
+
+@media screen and (max-width: 400px) {
+   #my-photo { 
+   	float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
 }
