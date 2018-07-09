@@ -4006,6 +4006,11 @@
 }
 */
 
+h3, h4 {
+    margin:0;
+    padding:0;
+}
+
 .inner div {
 	min-height: 200px;
 }
